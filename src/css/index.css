@@ -1,7 +1,61 @@
+*, *:before, *:after {
+    box-sizing: border-box;
+}
+
+.cf:after {
+	content: '';
+	display: block;
+	clear: both;
+}
 li {
 	list-style-type: none;
 }
 
-body{
-	background-color: blue:;
+.container {
+	max-width: 1200px;
+	margin: 0 auto;
 }
+
+.hah {
+	max-width: 100%;
+	
+}
+
+
+.answer {
+	display: block;
+	width: 100%;
+}
+
+.bestMovie, .textarea {
+	width: 100%;
+}
+
+
+
+@media screen and (min-width:500px){
+	.hah {
+		float: left;
+		width: 50%;
+	}
+	.haha {
+		display: block:;
+		width: 100%;
+		
+	}
+}
+@media screen and (min-width: 900px) {
+	.hah, .haha{ 
+
+		width: 33.3333%;
+
+	}
+
+
+}
+
+
+
+
+
+
